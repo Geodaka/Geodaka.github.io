@@ -1,0 +1,1 @@
+Template site for a startup

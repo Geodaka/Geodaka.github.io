@@ -1,0 +1,161 @@
+@import "../../variables";
+
+// RESPONSIVE BREAKPOINTS
+//1200 / 16:
+$bp-largest: 75em; //1200px
+//800 / 16 :
+$bp-medium: 50em; // 800px
+//656 / 16
+$bp-small: 41em; // 656px
+
+.nav-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 1rem;
+}
+
+.nav-toggle {
+	background: transparent;
+	border-color: transparent;
+	color: $theme-color;
+	font-size: 2.5rem;
+	cursor: pointer;
+	transition: all 0.3s linear;
+	margin-right: 1rem;
+}
+.nav-toggle:hover {
+	color: $theme-color-darker;
+	transform: rotate(90deg);
+}
+
+.logo {
+	font-family: inherit;
+	font-size: 100%;
+	border: 0;
+	font-weight: 900;
+	font-size: 5rem;
+	line-height: 6rem;
+	color: $theme-color;
+	background-color: $background-light;
+	margin: 0.5rem 0 0.5rem 1rem;
+}
+
+.links {
+	list-style-type: none;
+	& a {
+		color: $theme-color;
+		text-transform: capitalize;
+		display: block;
+		font-weight: 700;
+		transition: all 0.3s linear;
+		font-size: 2rem;
+		padding: 1rem 1.5rem 0.5rem 1.5rem;
+
+		&:hover {
+			color: $theme-color-darker;
+			cursor: pointer;
+		}
+		& .active {
+			color: $theme-color;
+		}
+	}
+}
+
+.links-container {
+	height: 0;
+	overflow: hidden;
+	transition: all 0.3s linear;
+	margin-left: 2rem;
+}
+
+.show-container {
+	height: 25rem;
+}
+
+.nav-center {
+	grid-column: full-start / full-end;
+	background-color: $background-light;
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+	.nav-center {
+		grid-column: full-start / full-end;
+		grid-row: 1 / 2;
+		width: 100%;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		background-color: $background-light;
+		position: fixed;
+		z-index: 100;
+	}
+	.nav-header {
+		padding: 0;
+	}
+	.nav-toggle {
+		display: none;
+	}
+	.links-container {
+		height: auto !important;
+	}
+	.links {
+		display: flex;
+		list-style-type: none;
+		padding-right: 4rem;
+	}
+	.links a {
+		margin: 0 0.5rem;
+	}
+	.logo {
+		margin: 1rem 0 1rem 4rem;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+
+	/* adding the line effect when you hover over item */
+
+	.menu {
+		position: relative;
+		margin-bottom: 0.5rem;
+		margin-left: 5rem;
+	}
+
+	.menu::before {
+		content: '';
+		position: absolute;
+		width: 0;
+		margin-top: 1.2rem;
+		height: 0.2rem;
+		bottom: 0;
+		left: 10;
+		background-color: $theme-color;
+		transition: all 0.3s ease-in-out;
+	}
+
+	.menu:hover::before {
+		width: 40%;
+	}
+	.menu .active {
+		color: $theme-color;
+	}
+
+	/* for the active link to stay underlined  */
+
+	.menu .active::before {
+		content: '';
+		position: absolute;
+		width: 30%;
+		margin-top: 1.2rem;
+		height: 0.2rem;
+		bottom: 0;
+		left: 10;
+		background-color: $theme-color;
+		transition: all 0.3s ease-in-out;
+	}
+}

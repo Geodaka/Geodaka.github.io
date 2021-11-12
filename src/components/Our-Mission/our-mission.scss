@@ -1,0 +1,85 @@
+@import "../../variables";
+
+// RESPONSIVE BREAKPOINTS
+//1200 / 16:
+$bp-largest: 75em; //1200px
+//800 / 16 :
+$bp-medium: 50em; // 800px
+//656 / 16
+$bp-small: 41em; // 656px
+
+.our-mission-container{
+	background-color: $background-dark;
+}
+
+.our-mission {
+	grid-column: full-start / full-end;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 10rem 0;
+	max-width:1900px;
+	margin:auto;
+	@media screen and (max-width: $bp-small) {
+		padding: 10rem 2rem;
+	}
+	justify-content: space-evenly;
+	align-items: center;
+	&-content {
+		width:90%;
+		@media screen and (max-width: $bp-small) {
+			padding: 4rem 2rem;
+		}
+
+		& p {
+			margin-bottom: 4rem;
+			line-height: 2.5rem;
+		}
+
+		& button {
+			margin: 1rem;
+		}
+	}
+
+	&-buttons {
+		@media screen and (max-width: $bp-small) {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+}
+
+.heading{
+	text-align: center;
+	align-self: flex-start;
+	min-width: 310px
+}
+
+.our-mission-content{
+	flex-basis:45%;
+	min-width: 310px;
+}
+
+.reverse{
+	flex-wrap: wrap-reverse;
+}
+
+.reverse .heading{
+	align-self: flex-end;
+}
+
+.our-mission-content-text{
+	color:white;
+	background-color: $theme-color;
+	padding:25px;
+	border-radius: 20px;;
+}
+
+.reverse .our-mission-content-text{
+	background-color: $accent-color;
+}
+
+img{
+	width:150px;
+}

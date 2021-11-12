@@ -1,0 +1,92 @@
+@import "../../variables";
+
+// RESPONSIVE BREAKPOINTS
+//1200 / 16:
+$bp-largest: 75em; //1200px
+//800 / 16 :
+$bp-medium: 50em; // 800px
+//656 / 16
+$bp-small: 41em; // 656px
+
+.app {
+	background-color:transparent;
+	padding: 10rem 0;
+	height:100%;
+}
+
+.app-content{
+	max-width: 2000px;
+	display:block;
+	margin: auto;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-items: center;
+	width:95%;
+	height:100%;
+}
+
+.imageWrapper{
+	flex-basis: 60%;
+	min-width:300px;
+}
+
+.mock{
+	width:100%;
+}
+
+.app-text{
+	text-align:left;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	height:100%;
+	margin:auto;
+
+	h1 {
+		font-weight: 1000;
+		margin-bottom: 20px;
+	}
+
+	p{
+		margin-bottom:20px;
+	}
+
+	flex-basis: 35%;
+	min-width:300px;
+}
+
+
+.theme-button {
+	background-color: $theme-color;
+	font-weight: 500;
+	font-size: 2rem;
+	line-height: 6rem;
+	padding: 0 4rem;
+	width: 22rem;
+	color: white;
+	border: 0.2rem solid white;
+	border-radius: 1rem;
+	cursor: pointer;
+	transition: 0.5s;
+
+	&:hover {
+		background-color: $theme-color-darker;
+		border-color: $theme-color-darker;
+		color:  white;
+	}
+}
+
+.tsparticles{
+	z-index: -100;
+	position: absolute;
+}
+
+@media screen and (max-width: 800px) {
+    .imageWrapper, .mock {
+        display: none !important;
+    }
+
+
+}

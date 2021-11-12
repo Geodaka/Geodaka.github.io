@@ -1,0 +1,78 @@
+@import "../../variables";
+
+.card1 {
+	background: linear-gradient(
+			to right,
+			$theme-color-darker,
+			rgba(39, 150, 236, 0.5)
+		),
+		url('../../Assets/Images/deed.jpg');
+
+	justify-self: end;
+}
+
+.card2 {
+	background: linear-gradient(
+			to right,
+			rgba(238, 115, 94, 0.6),
+			$accent-color,
+		),
+		url('../../Assets/Images/drone.jpg');
+	justify-self: start;
+}
+.card3 {
+	background: linear-gradient(
+			to right,
+			$accent-color,
+			rgba(238, 115, 94, 0.6)
+		),
+		url('../../Assets/Images/marketplace.jpg');
+	justify-self: end;
+}
+
+.card4 {
+	background: linear-gradient(
+			to right,
+			rgba(39, 150, 236, 0.5),
+			$theme-color-darker
+		),
+		url('../../Assets/Images/coder.jpg');
+	justify-self: start;
+}
+
+.card {
+	border-radius: 1rem;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding: 8rem;
+
+	&:hover {
+		transform: translateY(-1.5rem) scale(1.03);
+	}
+
+	& h3 {
+		margin: 1.5rem 0;
+		color: white;
+		font-size: 3.2rem;
+	}
+
+	& p {
+		line-height: 3rem;
+		color: white;
+	}
+
+	min-height:100%;
+	width:95%;
+}
+
+/* to align the cards in the center when screen smaller than 849px */
+
+@media screen and (max-width: 53em) {
+	.card1,
+	.card2,
+	.card3,
+	.card4 {
+		justify-self: center;
+	}
+}
