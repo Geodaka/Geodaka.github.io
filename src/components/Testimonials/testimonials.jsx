@@ -30,8 +30,8 @@ function Testimonials() {
 	}, [index]);
 
 	return (
-		<section className='section testimonials'>
-			<SubHeading text='Testimonials' headingClass='reviews' />
+		<section className='section opportunity'>
+			<SubHeading text='Opportunity Statements' headingClass='reviews' />
 			<div className='section-center'>
 				{data.map((person, personIndex) => {
 					const { id, img, name, job, text } = person;

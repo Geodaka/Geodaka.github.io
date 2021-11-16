@@ -11,7 +11,7 @@ $bp-small: 41em; // 656px
 .services {
 	grid-column: full-start / full-end;
 	padding: 10rem 0;
-	background-color: $background-light;
+	background-color: $background-dark;
 
 	@media screen and (max-width: $bp-small) {
 		padding: 10rem 2rem;

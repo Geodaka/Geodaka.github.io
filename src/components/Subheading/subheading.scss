@@ -8,11 +8,11 @@ $bp-medium: 50em; // 800px
 //656 / 16
 $bp-small: 41em; // 656px
 
-h2 {
+.subHeading h2 {
 	font-weight: 40rem;
 	position: relative;
 	margin-bottom: 5rem;
-
+	text-align: center;
 	@media screen and (max-width: $bp-small) {
 		font-size: 4.5rem;
 	}
@@ -76,7 +76,7 @@ h2 {
 	color:$theme-color;
 }
 
-.accent{
+.subHeading .accent{
 	color: $accent-color;
 	&::before {
 		background-color: $accent-color;

@@ -40,6 +40,27 @@
 	justify-self: start;
 }
 
+.card5 {
+	background: linear-gradient(
+			to right,
+			$theme-color-darker,
+			rgba(66, 81, 94, 0.5)
+		),
+		url('../../Assets/Images/globe.png');
+
+	justify-self: center;
+}
+
+.card6 {
+	background: linear-gradient(
+			to right,
+			rgba(238, 115, 94, 0.6),
+			$accent-color,
+		),
+		url('../../Assets/Images/mapmarker.png');
+	justify-self: center;
+}
+
 .card {
 	border-radius: 1rem;
 	display: flex;

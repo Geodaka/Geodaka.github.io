@@ -12,7 +12,43 @@ $bp-small: 41em; // 656px
 	background-color:transparent;
 	padding: 10rem 0;
 	height:100%;
+	
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 
 .app-content{
 	max-width: 2000px;
@@ -83,10 +119,21 @@ $bp-small: 41em; // 656px
 	position: absolute;
 }
 
-@media screen and (max-width: 800px) {
-    .imageWrapper, .mock {
-        display: none !important;
-    }
+.accentText{
+	font-weight:bold;
+	text-decoration: underline;
+	color: $accent-color;
+}
+
+.bold{
+	font-weight: bold;
+}
 
 
+.valueProp {
+    color: white;
+    font-size: x-large;
+    text-align: left;
+	margin-bottom:20px;
+	width:100%;
 }

@@ -11,10 +11,11 @@ function Header() {
 				<div class='app-content'>
 					<div className='app-text'>
 						<h1>{`${environment.HEADER_MESSAGE}`}</h1>
+						<h2 className='valueProp'>Making the surface of the planet a better place for all</h2>
 						<p>
-							Geodaka is a Geospatial Dapp platform utilizing geographic information systems, game engine
-							technology and the Cardano blockchain platform to create a decentralized, open source metaverse
-							digital twin of the real world.
+							The Geodaka dapp mapping platform and consumer application merges the technologies of
+							global information systems, virtual game engines and the Web3 Cardano blockchain
+							platform to create a digital twin metaverse Virtual Ecosystem of the entire world.
 						</p>
 						{/* <button className={'theme-button'}>
 							Go Now

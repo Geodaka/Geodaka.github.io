@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.16fc867f.chunk.css",
-    "main.js": "/static/js/main.391cec8d.chunk.js",
-    "main.js.map": "/static/js/main.391cec8d.chunk.js.map",
+    "main.css": "/static/css/main.166e8a6b.chunk.css",
+    "main.js": "/static/js/main.dec42134.chunk.js",
+    "main.js.map": "/static/js/main.dec42134.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ed70893f.js",
     "runtime-main.js.map": "/static/js/runtime-main.ed70893f.js.map",
     "static/js/2.d63b1740.chunk.js": "/static/js/2.d63b1740.chunk.js",
     "static/js/2.d63b1740.chunk.js.map": "/static/js/2.d63b1740.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.16fc867f.chunk.css.map": "/static/css/main.16fc867f.chunk.css.map",
+    "static/css/main.166e8a6b.chunk.css.map": "/static/css/main.166e8a6b.chunk.css.map",
     "static/js/2.d63b1740.chunk.js.LICENSE.txt": "/static/js/2.d63b1740.chunk.js.LICENSE.txt",
-    "static/media/charles.87b1a031.jpg": "/static/media/charles.87b1a031.jpg",
-    "static/media/service-card.scss": "/static/media/marketplace.505f975c.jpg",
-    "static/media/eric.6c051490.jpg": "/static/media/eric.6c051490.jpg",
-    "static/media/icon_opportunity.288acdef.svg": "/static/media/icon_opportunity.288acdef.svg",
-    "static/media/icon_research.c560f658.svg": "/static/media/icon_research.c560f658.svg",
-    "static/media/icon_technology.4203a62e.svg": "/static/media/icon_technology.4203a62e.svg",
-    "static/media/product-mock.3a1bcf4b.png": "/static/media/product-mock.3a1bcf4b.png",
-    "static/media/zuck.15bc8e4f.jpg": "/static/media/zuck.15bc8e4f.jpg"
+    "static/media/our-mission.scss": "/static/media/token.c4a22782.png",
+    "static/media/charles.e9ea8236.jpg": "/static/media/charles.e9ea8236.jpg",
+    "static/media/service-card.scss": "/static/media/marketplace.061445a7.jpg",
+    "static/media/eric.082e018c.jpg": "/static/media/eric.082e018c.jpg",
+    "static/media/linkImage.58cf11ba.png": "/static/media/linkImage.58cf11ba.png",
+    "static/media/newLogo.019cda43.png": "/static/media/newLogo.019cda43.png",
+    "static/media/product-mock.63c80d26.png": "/static/media/product-mock.63c80d26.png",
+    "static/media/zuck.49d1ec2f.jpg": "/static/media/zuck.49d1ec2f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ed70893f.js",
     "static/js/2.d63b1740.chunk.js",
-    "static/css/main.16fc867f.chunk.css",
-    "static/js/main.391cec8d.chunk.js"
+    "static/css/main.166e8a6b.chunk.css",
+    "static/js/main.dec42134.chunk.js"
   ]
 }

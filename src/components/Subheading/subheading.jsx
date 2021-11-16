@@ -2,7 +2,7 @@ import './subheading.scss';
 
 function SubHeading({ text, headingClass }) {
 	return (
-		<div>
+		<div className='subHeading'>
 			<h2 className={headingClass}>{text}</h2>
 		</div>
 	);

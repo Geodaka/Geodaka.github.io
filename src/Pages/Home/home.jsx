@@ -18,14 +18,10 @@ function Home() {
 	const [visible, setVisible] = useState(false);
 
 	const scrollFunction = () => {
-		if (
-			document.body.scrollTop > 20 ||
-			document.documentElement.scrollTop > 20
-		) {
-			setVisible(true);
-		} else {
-			setVisible(false);
-		}
+		const lowEnough = (document.body.scrollTop > 20 ||
+			document.documentElement.scrollTop > 20)
+		const wideEnough = window.innerWidth >= 500;
+		(lowEnough && wideEnough) ? setVisible(true) : setVisible(false);
 	};
 
 	useEffect(() => {

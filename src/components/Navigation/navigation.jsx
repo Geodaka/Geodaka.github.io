@@ -5,6 +5,7 @@ import { FaBars } from 'react-icons/fa';
 import links from './data';
 import { Link as Link2 } from 'react-router-dom';
 import { Link, animateScroll as scroll } from 'react-scroll';
+import newLogo from '../../Assets/Images/newLogo.png';
 
 const scrollToTop = () => {
 	scroll.scrollToTop();
@@ -28,6 +29,9 @@ function Navigation() {
 	return (
 		<nav className='nav-center'>
 			<div className='nav-header'>
+				<div className='logoHolder'>
+					<img src={newLogo} />
+				</div>
 				<button className='logo' onClick={scrollToTop}>
 					{`${environment.PRODUCT_NAME}`}
 				</button>

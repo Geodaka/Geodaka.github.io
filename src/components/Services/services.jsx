@@ -7,9 +7,9 @@ function Services() {
 	return (
 		<section className='services'>
 			<div className='services-text-box'>
-				<SubHeading text='Services' />
+				<SubHeading text='Realverse' />
 				<p>
-					For the metaverse to work in everyone's best interest <span className="accent-text">it must be decentralized</span>
+					For the Realverse to work in everyone's best interest <span className="accent-text">it must be decentralized</span>
 				</p>
 			</div>
 			<div className='services-cards'>

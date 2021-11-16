@@ -1,4 +1,4 @@
 export const PRODUCT_NAME = "Geodaka";
-export const ORGANIZATION_NAME = "RealMapInfo LLC.";
-export const HEADER_MESSAGE = "Everywhere, Everything, Everyone";
-export const CONTACT_EMAIL = "support@geodaka.com"
+export const ORGANIZATION_NAME = "Geodaka LLC.";
+export const HEADER_MESSAGE = "Welcome to the Realverse";
+export const CONTACT_EMAIL = "geodakadevelopment@gmail.com"
