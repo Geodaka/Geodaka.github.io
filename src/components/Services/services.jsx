@@ -7,7 +7,7 @@ function Services() {
 	return (
 		<section className='services'>
 			<div className='services-text-box'>
-				<SubHeading text='Realverse' />
+				<SubHeading text='Applications' />
 				<p>
 					For the Realverse to work in everyone's best interest <span className="accent-text">it must be decentralized</span>
 				</p>

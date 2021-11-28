@@ -65,8 +65,8 @@ $bp-small: 41em; // 656px
 .imageWrapper{
 	flex-basis: 60%;
 	min-width:300px;
+	flex-grow: 0.9;
 }
-
 .mock{
 	width:100%;
 }
@@ -90,7 +90,7 @@ $bp-small: 41em; // 656px
 	}
 
 	flex-basis: 35%;
-	min-width:300px;
+	min-width:270px;
 }
 
 
@@ -136,4 +136,8 @@ $bp-small: 41em; // 656px
     text-align: left;
 	margin-bottom:20px;
 	width:100%;
+}
+
+.valueAccent{
+	font-weight: bold;
 }

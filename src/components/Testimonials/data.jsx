@@ -10,18 +10,10 @@ const data = [
 	},
 	{
 		id: 2,
-		img: 'zuck',
-		name: 'Mark Zuckerberg',
-		job: 'CEO Meta',
-		text: `I believe the metaverse is the next chapter for the internet. In many ways the metaverse is the ultimate expression of social technology`,
-	},
-
-	{
-		id: 3,
-		img: 'eric',
-		name: 'Eric Schmidt',
-		job: 'CEO Google',
-		text: `All of the people who talk about metaverses are talking about worlds that are more satisfying than the current world you're richer, more handsome, more beautiful, more powerful, faster`,
+		img: 'todd',
+		name: 'Todd Chapin',
+		job: 'CEO RealMapInfo LLC.',
+		text: `The Geodaka Realverse created on the cardano ecosystem will be one of the best places representing Everywhere and Everything for Everyone. `,
 	}
 ];
 export default data;

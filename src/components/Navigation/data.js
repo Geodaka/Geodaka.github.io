@@ -7,7 +7,7 @@ const links = [
 	{
 		id: 2,
 		url: 'services',
-		text: 'services',
+		text: 'applications', // This got renamed from services --> applications
 	},
 	{
 		id: 3,

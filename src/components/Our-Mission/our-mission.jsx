@@ -1,19 +1,30 @@
 import './our-mission.scss';
 import SubHeading from '../Subheading/subheading';
 import linkImage from '../../Assets/Images/linkImage.png';
+import verticalLinkImage from '../../Assets/Images/linkImageVertical.png';
 
 function OurMission() {
 	return (
 		<div className="our-mission-container">
-			<h1 className='whatIsGeodaka'>
-				<span className='theme'>Geodaka</span> will be the <span className='accent'>link </span>
-				between the <span className='theme'>physical world</span> and the
-				<span className='accent'> virtual world </span>
-			</h1>
-			<div className='linkImageWrapper'>
-				<img src={linkImage} alt='product mock linkImage' className="linkImage" />
+			<div className='whatIsGeodakaContainer'>
+				<h1 className='whatIsGeodaka'>
+					<span className='theme'>Geodaka</span> will be the <span className='accent'>link </span>
+					between the <span className='theme'>physical world</span> and the
+					<span className='accent'> virtual world </span>
+				</h1>
+				<div className='linkImageWrapper'>
+					<img src={linkImage} alt='product mock linkImage' className="linkImage" />
+				</div>
+				<div className='verticalLinkImageWrapper'>
+					<img src={verticalLinkImage} alt='product mock linkImage' className="verticalLinkImage" />
+				</div>
+				<h1 className='whatIsGeodaka pushProblemDown'>
+					<span className='accent'> Merging</span> the best in class<span className='theme'> geospatial</span> and
+					<span className='accent'> blockchain  </span> technologies to  create a new
+					<span className='theme'> real estate</span> virtual commerce <span className='accent'> platform</span>
+				</h1>
 			</div>
-			<section className='our-mission'>
+			<section className='our-mission topMission'>
 				<div className='heading otherStyle'>
 					<SubHeading text='The Problem' />
 					<div className='headingImage headingImage1'>
@@ -21,46 +32,33 @@ function OurMission() {
 				</div>
 				<div className='our-mission-content'>
 					<p className='our-mission-content-text'>
-						Legacy geospatial mapping applications do not provide an open-source, de-centralized
-						mapping platform for digital land creation, registration and ownership of real space in the virtual world.
+						Legacy consumer mapping apps such as Google maps are centralized and monopolistic.
+						They do not operate by the people - <span className='bold'>'for the people'</span>.
 						<br />
 						<br />
-						No direct representation, platform or link exists between the real world and the digital world.
-						Current Metaverse projects create fantasy worlds that do not represent real world digital property
-						registration, ownership, property rights and other real world assets.
+						No direct representation, platform or link exists between the <span className='bold'> real world </span>
+						and the <span className='bold'>digital world</span>.
 						<br />
 						<br />
-						The developing world is unmapped and has no means of property registration and deed certificate of title.
-						The developed world is underserved by centralized monopoly corporate and government GIS mapping applications.
+						The developing world is unmapped, unregistered and underepresented in the emerging <span className='bold'>virtual ecosystem</span>.
+						Web3 and open source geospatial DApps are needed to improve the lives of <span className='bold'>all the citizens</span> of the planet.
 					</p>
 				</div>
 			</section>
 			<section className='our-mission reverse'>
 				<div className='our-mission-content'>
 					<p className='our-mission-content-text'>
-						<p>
-							Geodaka is creating the <span className='bold'>REALVERSE</span>. A digital twin of the earth powered by the Cardano blockchain.
-							The Geodaka Project Cardano Native Token EEE (ISO) which enables the <span className='bold'>REALVERSE</span> will become the
-							<span className='italic'>'where'</span> for the cardano blockchain ecosystem and the basis of geospatial virtual commerce AKA: V-Comverse.
-						</p>
-						<span className='bold'>EVERYWHERE</span>
-						<p>
-							The Realverse will be the digital mapping platform, network and direct link between the real
-							world and the virtual world.
-						</p>
-						<span className='bold'>EVERYTHING</span>
-						<p>
-							Real property can be digitally represented in duplicate, at the same geographic coordinates of the
-							real world creating digital twin environments, lands, towns and cities in the same exact digital space.
-						</p>
-						<span className='bold'>EVERYONE</span>
-						<p>
-							The Geodaka Realverse will be the means by which anyone with an internet connection can post the
-							<span className='italic'>'where'</span> aspects of their property, service or business and communicate
-							instantly to the smart, virtual world.  This functionality will bring digital property rights,
-							benefits and privileges to all creating world-wide V-Commerce, changing the face of the planet,
-							enhancing the lives of all.
-						</p>
+						The Realverse digital AR twin of the planet creates a direct link between the real world and digital world.
+						<span className='bold'> EVERYWHERE </span> on the planets surface, every public and private property is accurately
+						recreated in the Realverse.
+						<br />
+						<br />
+						Innovative technologies such as Mapbox, Unity and Vuforia are utilized to create, build and maintain the Realverse.
+						The Cardano blockchain Web3 ecosystem is utilized for finance, exchange, tokenization, NFTs and smart contracts in the Realverse.
+						<br />
+						<br />
+						<span className='bold'>EVERYTHING</span> like buildings, roads, property and infrastructure can be digitized and AR hosted for immersion in the Realverse.
+						Mapping the unmapped creates opportunity for <span className='bold'>EVERYONE</span>. The entire world can be AR connected in the Realverse.
 					</p>
 				</div>
 				<div className='heading'>
@@ -77,22 +75,16 @@ function OurMission() {
 				</div>
 				<div className='our-mission-content'>
 					<p className='our-mission-content-text'>
-						The Geodaka project developers are initiating an (ISO) symbol EEE native utility token on the Cardano
-						Blockchain and creating a Metaverse NFT Game called Geomonopoly.  Revenues will be utilized to build
-						the mapping Dapp and game foundations of the <span className='bold'>REALVERSE</span> project.
+						The Geodaka project developers are initiating a native utility token (ICO/ISO) on the Cardano layer 1 blockchain.
+						The token symbol <span className='bold'>$GKA</span> will be distributed onto a DEX in Q1 2022
 						<br />
 						<br />
-						The end result will be a high definition metaverse duplicate of the entire known human occupation
-						of the planet.  Every highway, byway, town and city and all the infrastructure will be accurately
-						digitally duplicated and interactively ‘live’ existing in the Realverse.  The Realverse will be the
-						digital equivalent of the real thing, and hence will become an extremely useful tool linking the real
-						world and virtual world.
+						The utility and governance token will be delegated to stake pool operators completing an initial stake pool offering.
+						The GKA token will be utilized to build and operate the <span className='bold'>geospatial DApp protocol</span>, apps, SPO delegation and rewards systems for participation.
 						<br />
 						<br />
-						The Realverse will be created through GIS mapping technology, satellite imagery, street mapping,
-						digital terrain models, 3D buildings and infrastructure. Once a worldwide base map is completed,
-						billions of real world property boundaries lines are added creating the 3D Geo-Parcel property
-						network layer.
+						The GKA Cardano native token will be used to facilitate token exchange, NFT, governance, smart contracts and digital identity.
+						Cardano SPOs will be utilized to operate the decentralized open source Web3 <span className='bold'>REALVERSE</span>.
 						<br />
 						<br />
 						Want to lean more? <a href='' className='whitepaperLink italic'>Read our whitepaper for more information  </a>

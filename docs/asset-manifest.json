@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.166e8a6b.chunk.css",
-    "main.js": "/static/js/main.dec42134.chunk.js",
-    "main.js.map": "/static/js/main.dec42134.chunk.js.map",
+    "main.css": "/static/css/main.d28265ab.chunk.css",
+    "main.js": "/static/js/main.eb626a43.chunk.js",
+    "main.js.map": "/static/js/main.eb626a43.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ed70893f.js",
     "runtime-main.js.map": "/static/js/runtime-main.ed70893f.js.map",
-    "static/js/2.d63b1740.chunk.js": "/static/js/2.d63b1740.chunk.js",
-    "static/js/2.d63b1740.chunk.js.map": "/static/js/2.d63b1740.chunk.js.map",
+    "static/js/2.4969fb86.chunk.js": "/static/js/2.4969fb86.chunk.js",
+    "static/js/2.4969fb86.chunk.js.map": "/static/js/2.4969fb86.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.166e8a6b.chunk.css.map": "/static/css/main.166e8a6b.chunk.css.map",
-    "static/js/2.d63b1740.chunk.js.LICENSE.txt": "/static/js/2.d63b1740.chunk.js.LICENSE.txt",
+    "static/css/main.d28265ab.chunk.css.map": "/static/css/main.d28265ab.chunk.css.map",
+    "static/js/2.4969fb86.chunk.js.LICENSE.txt": "/static/js/2.4969fb86.chunk.js.LICENSE.txt",
     "static/media/our-mission.scss": "/static/media/token.c4a22782.png",
     "static/media/charles.e9ea8236.jpg": "/static/media/charles.e9ea8236.jpg",
     "static/media/service-card.scss": "/static/media/marketplace.061445a7.jpg",
-    "static/media/eric.082e018c.jpg": "/static/media/eric.082e018c.jpg",
-    "static/media/linkImage.58cf11ba.png": "/static/media/linkImage.58cf11ba.png",
+    "static/media/linkImage.bb279d4f.png": "/static/media/linkImage.bb279d4f.png",
+    "static/media/linkImageVertical.4307c9b7.png": "/static/media/linkImageVertical.4307c9b7.png",
     "static/media/newLogo.019cda43.png": "/static/media/newLogo.019cda43.png",
-    "static/media/product-mock.63c80d26.png": "/static/media/product-mock.63c80d26.png",
-    "static/media/zuck.49d1ec2f.jpg": "/static/media/zuck.49d1ec2f.jpg"
+    "static/media/product-mock.335ea3e1.png": "/static/media/product-mock.335ea3e1.png",
+    "static/media/todd.eb4a53c6.png": "/static/media/todd.eb4a53c6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ed70893f.js",
-    "static/js/2.d63b1740.chunk.js",
-    "static/css/main.166e8a6b.chunk.css",
-    "static/js/main.dec42134.chunk.js"
+    "static/js/2.4969fb86.chunk.js",
+    "static/css/main.d28265ab.chunk.css",
+    "static/js/main.eb626a43.chunk.js"
   ]
 }

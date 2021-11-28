@@ -29,12 +29,14 @@ function Navigation() {
 	return (
 		<nav className='nav-center'>
 			<div className='nav-header'>
-				<div className='logoHolder'>
-					<img src={newLogo} />
+				<div className='logoNameFlex'>
+					<div className='logoHolder'>
+						<img src={newLogo} />
+					</div>
+					<button className='orgName' onClick={scrollToTop}>
+						{`${environment.PRODUCT_NAME}`}
+					</button>
 				</div>
-				<button className='logo' onClick={scrollToTop}>
-					{`${environment.PRODUCT_NAME}`}
-				</button>
 				<button className='nav-toggle' onClick={() => setShowLinks(!showLinks)}>
 					<FaBars />
 				</button>

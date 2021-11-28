@@ -5,7 +5,7 @@ export const servicesData = [
 		iconClass: 'fas fa-passport fa-4x',
 		title: 'NFTD',
 		description:
-			' Development of secure, KYC verified Non Fungible Token Deeds (NFTD).',
+			' RealFi is utilized to create NFTD real estate property registration and digital ownership. ',
 	},
 	{
 		id: 2,
@@ -13,7 +13,7 @@ export const servicesData = [
 		iconClass: 'fas fa-desktop fa-4x',
 		title: 'Digitalization',
 		description:
-			'On site digitalization service provider network to complete 3D drone mappings of exterior and 3D video of interior.',
+			'On site smart phone AR scan/modeling capability creates real immersive digital representation of any home, office, retail, hospitality space in the Realverse.',
 	},
 	{
 		id: 3,
@@ -21,7 +21,7 @@ export const servicesData = [
 		iconClass: 'fas fa-money-bill-wave fa-4x',
 		title: 'Marketplace',
 		description:
-			'Peer to peer digital market place for buying and selling properties and geospatial services',
+			'Peer to peer trustless market place and exchange creating virtual commerce utilizing The Geodaka and Cardano blockchain tokens.',
 	},
 	{
 		id: 4,
@@ -29,7 +29,7 @@ export const servicesData = [
 		iconClass: 'fas fa-users fa-4x',
 		title: 'Cardano Ecosystem',
 		description:
-			'Development of open source geospatial software powered by the Cardano blockchain',
+			'Utilizing Geodaka ISO funding the geospatial DApp will be developed on the Cardano ADA financial operating system. ',
 	},
 	{
 		id: 5,
@@ -37,7 +37,7 @@ export const servicesData = [
 		iconClass: 'fas fa-globe fa-4x',
 		title: 'WGS84 Digital Twin',
 		description:
-			'A need exists for an open source, decentralized, accurate earth digital twin',
+			'The Realverse projects an accurate digital twin duplicate of the planet.',
 	},
 	{
 		id: 6,
@@ -45,6 +45,6 @@ export const servicesData = [
 		iconClass: 'fas fa-map-signs fa-4x',
 		title: 'Virtual Property',
 		description:
-			'Digital land and infrastructure will become extremely valuable in the future, bringing about positive change world-wide',
+			'The Realverse creates digital land and billions of boundaries of public and private land parcels.',
 	},
 ];

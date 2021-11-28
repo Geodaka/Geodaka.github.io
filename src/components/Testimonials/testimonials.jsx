@@ -4,8 +4,7 @@ import data from './data';
 import SubHeading from '../Subheading/subheading';
 import './testimonials.scss';
 import charles from '../../Assets/Images/charles.jpg'
-import zuck from '../../Assets/Images/zuck.jpg'
-import eric from '../../Assets/Images/eric.jpg'
+import todd from '../../Assets/Images/todd.png'
 
 function Testimonials() {
 
@@ -50,10 +49,8 @@ function Testimonials() {
 					const getImage = (img) => {
 						if (img === 'charles')
 							return charles;
-						if (img === 'zuck')
-							return zuck;
-						if (img === 'eric')
-							return eric;
+						if (img === 'todd')
+							return todd;
 						return img;
 					}
 

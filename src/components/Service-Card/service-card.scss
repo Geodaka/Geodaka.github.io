@@ -48,7 +48,7 @@
 		),
 		url('../../Assets/Images/globe.png');
 
-	justify-self: center;
+	justify-self: end;
 }
 
 .card6 {
@@ -58,7 +58,7 @@
 			$accent-color,
 		),
 		url('../../Assets/Images/mapmarker.png');
-	justify-self: center;
+	justify-self: start;
 }
 
 .card {
@@ -93,7 +93,9 @@
 	.card1,
 	.card2,
 	.card3,
-	.card4 {
+	.card4,
+	.card5,
+	.card6 {
 		justify-self: center;
 	}
 }
